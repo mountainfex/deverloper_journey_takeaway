@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Takeaway | It's time to eat | © 2023 Niklas Tibbe</title>
+  </head>
+  <body onload="render()">
+    <header>
+      <div class="navbar">
+        <div class="leftnav">
+          <img src="img/logo.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <div class="contenthead" id="contenthead">
+        <div class="restimg">
+          <img src="img/pizzahead.jpg" alt="" />
+        </div>
+        <div class="resttitle">
+          <p>Moin - Pizza & Kebap</p>
+          <div class="rating">
+            <img src="img/star-128.png" alt="" />
+            <img src="img/star-128.png" alt="" />
+            <img src="img/star-128.png" alt="" />
+            <img src="img/star-128.png" alt="" />
+            <img src="img/star-4-128.png" alt="" />
+            <span>187 Bewertungen</span>
+          </div>
+          <div class="specs">
+            <img src="img/time-8-128.png"">
+            <span>10-15 Minuten</span>
+            <div class="spacer"><img src="img/circle-24.png" alt="" /></div>
+            <img src="img/truck-128.png" alt="" />
+            <span>5,00 €</span>
+            <div class="spacer"><img src="img/circle-24.png" alt="" /></div>
+            <img src="img/cart-12-128.png" alt="" />
+            <span>kein Mindestbestellwert</span>
+          </div>
+        </div>
+        <section>
+          <div class="menumain">
+            <div class="header">
+              <h2>Beliebt</h2>
+            </div>
+            <div class="menucontent" id="menucontent"></div>
+          </div>
+        </section>
+      </div>
+      <div class="cart" id="showcart">
+        <div class="headline">
+          <span class="headline">Warenkorb</span>
+        </div>
+        <div class="placeholdercart" id="shoppingcart">
+          <img src="img/cart-12-128.png" alt="" />
+          <span class="subline">Fülle deinen Warenkorb</span>
+          <span class="subsubline">Bestelle leckere Gerichte von unserer Speisekarte</span>
+        </div>
+      </div>
+      <div class="mediacart" id="mediacart">
+        <div class="mediatotalCost" onclick="showcart()">
+          Warenkorb
+        </div>
+      </div>
+      <div class="footer">
+        <img src="img/logo.png" alt="" />
+      </div>
+  </body>
+</html>
